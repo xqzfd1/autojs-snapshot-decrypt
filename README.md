@@ -1,17 +1,18 @@
-# Auto.js APK Source Viewer
+# Auto.js 通用快照解密
 
 ![Android](https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Auto.js](https://img.shields.io/badge/Auto.js-Source%20Viewer-1f8a70?style=for-the-badge)
-![Release](https://img.shields.io/badge/Release-Signed%20APK-blue?style=for-the-badge)
+![Auto.js](https://img.shields.io/badge/Auto.js-Snapshot%20Decrypt-1f8a70?style=for-the-badge)
+![Release](https://img.shields.io/badge/Releases-v1.0.0-blue?style=for-the-badge)
 
-一个面向 Auto.js APK 的源码明文查看工具。
+一个面向 Auto.js 打包 APK 的通用快照解密工具。
 
-它把 APK 分析、源码明文展示、复制、保存和关键数据整理放到一个移动端应用里，适合在手机上快速查看打包后的 Auto.js 项目内容，也适合用作逆向学习和 APK 结构分析的演示案例。
+它把 APK 识别、项目配置解析、主脚本处理、JS 明文展示、复制、保存和关键数据整理放到一个 Android 应用里。适合快速分析 Auto.js 打包项目，也适合用作 Auto.js 快照解密与 APK 结构研究的演示案例。
 
 ## 下载
 
-- [下载工具安装包](apks/source-viewer-signed.apk)
-- [下载案例 APK](apks/sample-autojs.apk)
+- [从 Releases 下载 v1.0.0](https://github.com/xqzfd1/autojs-snapshot-decrypt/releases/tag/v1.0.0)
+- [下载工具安装包](apks/autojs-snapshot-decrypt-v1.0.0.apk)
+- [下载案例 APK](apks/sample-autojs-snapshot.apk)
 - [查看 SHA256 校验](checksums/SHA256SUMS.txt)
 
 ## 项目亮点
@@ -28,8 +29,8 @@
 
 ```text
 apks/
-  sample-autojs.apk          案例 Auto.js APK
-  source-viewer-signed.apk   已签名 Android 安装包
+  sample-autojs-snapshot.apk              案例 Auto.js APK
+  autojs-snapshot-decrypt-v1.0.0.apk      已签名 Android 安装包
 
 checksums/
   SHA256SUMS.txt             文件校验值
@@ -37,7 +38,7 @@ checksums/
 
 ## 使用方式
 
-1. 下载 `apks/source-viewer-signed.apk`
+1. 下载 `apks/autojs-snapshot-decrypt-v1.0.0.apk`
 2. 安装到 Android 手机
 3. 打开应用，选择需要分析的 APK
 4. 进入“源码”页查看 JS 明文
@@ -45,7 +46,7 @@ checksums/
 
 ## 案例说明
 
-仓库内置 `sample-autojs.apk` 作为演示案例。安装工具后选择该 APK，即可看到项目配置、字符串、URL 和源码明文结果。
+仓库内置 `sample-autojs-snapshot.apk` 作为演示案例。安装工具后选择该 APK，即可看到项目配置、字符串、URL 和源码明文结果。
 
 ## 文件校验
 
