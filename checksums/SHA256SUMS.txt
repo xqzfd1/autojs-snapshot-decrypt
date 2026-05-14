@@ -1,0 +1,2 @@
+7d222f5a7f060930d8d44a0ef4750762b6f6393f89efacfa28472689e769611d  apks/sample-autojs.apk
+0d5e6fddd0f3f22a1365cfb046f2f767fe99d788eac41bc4058ad82a87a86552  apks/source-viewer-signed.apk

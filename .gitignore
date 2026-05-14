@@ -1,0 +1,8 @@
+# Keep this repository focused on release artifacts.
+*
+!README.md
+!.gitignore
+!apks/
+!apks/*.apk
+!checksums/
+!checksums/*.txt
